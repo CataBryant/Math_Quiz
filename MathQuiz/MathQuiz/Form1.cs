@@ -53,6 +53,7 @@ namespace MathQuiz
             product.Value = 0;
             TimeLeft = 30;
             Time.Text = "30 seconds";
+            Time.BackColor = Color.Aqua;
             timer1.Start();
         }
 
