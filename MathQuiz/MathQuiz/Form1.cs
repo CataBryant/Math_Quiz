@@ -83,6 +83,8 @@ namespace MathQuiz
                 MessageBox.Show("Too slow.Try again");
                 sum.Value = addend1 + addend2;
                 difference.Value = addmin1 - addmin2;
+                product.Value = addpro1 * addpro2;
+                div.Value = adddiv1 / adddiv2;
                 button1.Enabled = true;
             }
             if(TimeLeft<10)
